@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif; /* Sets the font for the entire page */
+    margin: 0; /* Removes default margin */
+    padding: 0; /* Removes default padding */
+    background-color: azure; /* Sets background color */
+}
+
+header {
+    background-color: #ac69ca; /* Sets header background color */
+    color: white; /* Sets header text color */
+    padding: 11px 0; /* Adds vertical padding */
+    text-align: center; /* Centers header text */
+}
+
+main h1 {
+    margin-bottom: 20px; /* Adds space below the header */
+    font-size: 32px; /* Makes the heading larger */
+}
+
+.content {
+    margin: 20px; /* Applies margin to the main content area */
+}
+
+main p {
+    margin-bottom: 15px; /* Adds space below each paragraph */
+    line-height: 1.6; /* Increases line height for better readability */
+}
+
+nav ul {
+    list-style-type: none; /* Removes bullets from the list */
+    padding: 0; /* Removes padding */
+}
+
+nav ul li {
+    display: inline; /* Displays list items in a line */
+    margin-right: 20px; /* Adds space between list items */
+}
+
+nav ul li a {
+    color: rgb(245, 250, 232); /* Sets link text color */
+    text-decoration: none; /* Removes underline from links */
+    font-size: 30px; /* Changes font size of links */
+}
+
+h1 {
+    color: #333; /* Sets color for all h1 elements */
+}
+
+footer {
+    background-color: #ac69ca; /* Sets footer background color */
+    color: white; /* Sets footer text color */
+    text-align: center; /* Centers footer text */
+    padding: 10px; /* Adds padding around footer content */
+    position: fixed; /* Fixes footer at the bottom of the page */
+    width: 100%; /* Ensures footer spans full width */
+    bottom: 0; /* Aligns footer at the bottom */
+}
